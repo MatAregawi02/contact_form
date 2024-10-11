@@ -19,7 +19,7 @@ body{
 
 }
 .wrapper{
-    width : 30%;
+    width : 705px;
     
 
     height : auto;
@@ -33,7 +33,7 @@ form{
 .input-group-double{
     display : flex;
 
-   
+  
     justify-content: space-between;
     margin-top: 5px;
     margin-bottom: 15px;
@@ -105,3 +105,14 @@ form{
 h1{
     margin-bottom : 20px;
 }
+
+@media (max-width : 600px){
+    .wrapper{
+        width : 100%;
+    }
+    .input-group-double{
+        display : block; 
+        background-color: red;
+        width : 100%;
+    }
+  }
