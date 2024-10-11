@@ -36,9 +36,6 @@ form {
   margin-bottom: 15px;
   width: 100%;
 }
-.input-group-double .input-group-holder {
-  width: 45%;
-}
 .input-group-double .first-name-entry {
   width: 100%;
 }
@@ -55,6 +52,19 @@ form {
 }
 .input-group-double .name-label {
   width: 50%;
+}
+
+.inquiry-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.input-group-holder {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  gap: 10px;
 }
 
 .input-group-single {
@@ -78,7 +88,7 @@ form {
   margin-top: 20px;
   width: 100%;
   padding: 10px 0 10px 0;
-  border-radius: 10%;
+  border-radius: 5px;
 }
 
 h1 {
